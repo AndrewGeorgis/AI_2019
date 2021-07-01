@@ -1,4 +1,6 @@
 # AI_2019
 # Getting Started
-A user gives a probability p, a size of a grid N and two points inside of that grid the start point S and the finish point F.
-Then we construct with probability p a randomly maze, within the two points. The regions of the grid are obstacles. As we create the maze we certify that inside the maze will be a path from the start point to the finish point. Thereafter we create an abstract pathfinding function that takes a number g which is the distance we have traversed from the beginning until the node that algorithm expand and the heuristic function that gives an approximate distance from the current point to the finish point. After that the pathfindind class return the optimal path for different values of g(cost) and h(heuristic function). At the end we compare the different algorithms. 
+The aim of the work is to apply search algorithms and find the best path in a square grid of dimensions $N\times N$. Initially, our goal is to construct search problems in square tracks, where there is at least one path to go from a starting point to a goal. 
+The user gives a probability p and then we construct randomly a maze, within the two points. The regions of the grid are obstacles. As we create the maze we certify that inside the maze will be a path from the start point to the finish point. Thereafter we create an abstract pathfinding function that takes a number g which is the distance we have traversed from the beginning until the node that algorithm expand and the heuristic function that gives us an approximate distance from the current point to the finish point. After that the pathfindind class return the optimal path for different values of g(cost) and h(heuristic function). At the end we compare the different algorithms.
+
+
